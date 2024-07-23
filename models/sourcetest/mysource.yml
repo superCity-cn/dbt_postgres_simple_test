@@ -1,0 +1,8 @@
+version: 2
+
+sources: 
+  - name: apm_portal
+    description: "apm_portal"
+    tables:
+      - name: t_srp_info
+        identifier: t_srp_info

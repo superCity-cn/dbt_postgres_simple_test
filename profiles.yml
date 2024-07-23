@@ -1,0 +1,22 @@
+sc_test:
+  outputs:
+    dev1:
+      dbname: apm
+      host: localhost
+      pass: postgres
+      port: 5432
+      schema: apm_dbt
+      threads: 3
+      type: postgres
+      user: postgres
+    dev2:
+      dbname: apm
+      host: localhost
+      pass: postgres
+      port: 5432
+      schema: apm_dbt2
+      threads: 3
+      type: postgres
+      user: postgres
+  target: dev2
+

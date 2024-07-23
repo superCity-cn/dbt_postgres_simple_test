@@ -1,0 +1,16 @@
+version: 2
+
+seeds: 
+  - name: raw_customers
+    description: "德玛西亚"
+    docs:
+      show: true
+      node_color: "red" # Use name (such as node_color: purple) or hex code with quotes (such as node_color: "#cd7f32")
+    config:
+      ## 是否给列名上双引号
+      # quote_columns: true | false
+      ## 列类型
+      column_types: 
+        last_name: varchar(32)
+      delimiter: ","
+      ## schema: "ssstest" # 会生成apm_dbt_ssstest schema
